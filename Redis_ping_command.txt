@@ -1,1 +1,1 @@
-node -e "require('redis').createClient({ url: 'redis://default:Ce3SwAEqyuTzi1DMxtPiz9pb884mDT57@redis-11035.crce179.ap-south-1-1.ec2.redns.redis-cloud.com:11035' }).connect().then(c => c.ping().then(console.log).finally(() => c.quit()))"
+
